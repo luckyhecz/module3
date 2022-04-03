@@ -1,1 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+/*
+h1 {
+	text-align: center;
+}
+*/
+.navbar {
+	background-color: grey;
+}
+.navbar-default .navbar-text {
+	color: black;
+}
+.navbar-text {
+	font-size: 2em;
+}
+.navbar > .container {
+	margin-left: 0;	
+}
+body { padding-top: 70px; }
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+.par1 {
+  border: 2px solid black;
+  background-color: grey;
+  width: 83.5%;
+  height: auto;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  color: white;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
 
+}
+#p1 {
+  background-color: #A52A2A;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border: 2px solid black;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+#p2 {
+  background-color: #DEB887;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border: 2px solid black;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+#p3 {
+  background-color: #5F9EA0;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  border: 2px solid black;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.par {
+  position: relative;
+  top: 25px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 2em;
+}
+
+.navbar-btn {
+	border-color: black;
+	border-radius: 1px;
+    margin-top: -55px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    position: fixed;
+    right: 15px;
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    z-index: 2000;
+
+}
+hr  {
+	border-top-color: black;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 100%;
+	height: 1px;
+}
+.dropdown-menu {
+	background-color: #fff39b;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin-top: 0;
+}
